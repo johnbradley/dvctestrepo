@@ -1,10 +1,10 @@
-md5: 9658b71130903b17d1cbcf3bc89d3d8d
+md5: c2f50c9371b16a45414ba7eeea06dcc6
 cmd: wc data/file1.txt > data/file1.txt.wc
 deps:
-- md5: deed54b823522e0525693b090363f9df
+- md5: 6fe10b4fb8bc62ff4c0e1364bf48ccf8
   path: data/file1.txt
 outs:
-- md5: 70a26ddede2cdfc0b73dc403b42f180d
+- md5: be40a9c4ae4201e49bf583aaaea8beec
   path: data/file1.txt.wc
   cache: true
   metric: false
